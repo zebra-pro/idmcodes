@@ -1,0 +1,85 @@
+export const jobs = [
+  {
+    id: 1,
+    title: 'Senior Software Developer',
+    department: 'Development',
+    location: 'Remote',
+    type: 'Full-Time',
+    description: `We're looking for a skilled Senior Software Developer to design, build, and maintain cutting-edge applications.`,
+    responsibilities: [
+      'Lead development of complex software solutions',
+      'Mentor junior developers and conduct code reviews',
+      'Collaborate with product managers to define technical requirements',
+      'Implement best practices and architectural patterns',
+    ],
+    requirements: [
+      '5+ years of experience in software development',
+      'Strong expertise in React, Node.js, and TypeScript',
+      'Experience with cloud services (AWS/Azure/GCP)',
+      'Excellent problem-solving and communication skills',
+    ],
+    benefits: [
+      'Competitive salary and equity package',
+      'Remote-first work environment',
+      'Health, dental, and vision insurance',
+      'Professional development budget',
+    ],
+    applicationUrl: 'https://forms.google.com/senior-dev',
+  },
+  {
+    id: 2,
+    title: 'Product Marketing Manager',
+    department: 'Marketing',
+    location: 'Hybrid',
+    type: 'Full-Time',
+    description:
+      'Join our marketing team to help shape and execute our product marketing strategy.',
+    responsibilities: [
+      'Develop and execute product marketing strategies',
+      'Create compelling content for product launches',
+      'Conduct market research and competitor analysis',
+      'Work closely with sales team to drive growth',
+    ],
+    requirements: [
+      '3+ years of product marketing experience',
+      'Strong analytical and communication skills',
+      'Experience in B2B software industry',
+      'Project management expertise',
+    ],
+    benefits: [
+      'Competitive compensation package',
+      'Flexible work arrangement',
+      'Comprehensive benefits package',
+      'Career advancement opportunities',
+    ],
+    applicationUrl: 'https://forms.google.com/product-marketing',
+  },
+  {
+    id: 3,
+    title: 'UX/UI Designer',
+    department: 'Design',
+    location: 'Remote',
+    type: 'Full-Time',
+    description:
+      'Create beautiful and intuitive user experiences for our products.',
+    responsibilities: [
+      'Design user interfaces for web and mobile applications',
+      'Conduct user research and usability testing',
+      'Create wireframes, prototypes, and high-fidelity designs',
+      'Collaborate with developers on implementation',
+    ],
+    requirements: [
+      '3+ years of UX/UI design experience',
+      'Proficiency in Figma and design tools',
+      'Strong portfolio demonstrating user-centered design',
+      'Experience with design systems',
+    ],
+    benefits: [
+      'Competitive salary',
+      'Remote work options',
+      'Health and wellness benefits',
+      'Learning and development stipend',
+    ],
+    applicationUrl: 'https://forms.google.com/ux-designer',
+  },
+]
