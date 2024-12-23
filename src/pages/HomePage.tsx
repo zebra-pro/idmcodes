@@ -8,17 +8,19 @@ import IndustriesSection from '../components/IndustriesSection'
 import PartnersSection from '../components/PartnersSection'
 import TestimonialsSection from '../components/TestimonialsSection'
 import CtaBanner from '../components/CtaBanner'
+import Timeline from '../components/TimeLine'
 
 export default function HomePage() {
   return (
     <>
       <HeroSlider />
-      <MetricsSection />
       <AboutSection />
+      <Timeline />
       <SolutionsSection />
+      <MetricsSection />
       <IndustriesSection />
-      <TestimonialsSection />
       <ServicesSection />
+      <TestimonialsSection />
       <PartnersSection />
       <CtaBanner />
     </>

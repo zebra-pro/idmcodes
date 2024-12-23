@@ -4,7 +4,7 @@ import { Container } from './Container'
 interface SectionProps {
   children: React.ReactNode
   className?: string
-  background?: 'white' | 'gray'
+  background?: 'white' | 'gray' | any
 }
 
 export function Section({
